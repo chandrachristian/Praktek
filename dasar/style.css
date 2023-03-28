@@ -1,0 +1,8 @@
+.first-letter-bold::first-letter {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+.header {
+    font-size: medium;
+}
