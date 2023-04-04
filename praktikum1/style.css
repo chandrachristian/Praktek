@@ -1,0 +1,71 @@
+.rcb {
+    color: blue;
+}
+
+#ch {
+    color: cyan;
+}
+
+.container p{
+    color: green;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    text-align: center;
+}
+
+.box-one {
+    margin: 20px 40px 20px;
+}
+
+.box-two {
+    margin: 0 0 60px 80px;
+}
+
+.box-three {
+    margin: 0 100px;
+}
+
+:link{
+    color: red;
+    }
+    :visited{
+    color: green;
+    }
+    a:hover{
+    color: yellow;
+    }
+    a:active{
+    color: aqua;
+    }
+
+
+.container{
+    font-size: 10px;
+    padding-top: 40px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    border: 1px solid black;
+
+}
+
+.container .rem{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    color: red;
+    font-weight: 1000;
+    font-style: italic;
+    text-decoration: none;
+    line-height: 4rem;
+}
+.container .em{
+    font-size: 2.5em;
+    text-align: center;
+    color: green;
+}
