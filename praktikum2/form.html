@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>FORMULIR</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table, tr, td, th{
+            border: 1px solid black;
+        }
+        th{
+            background-color: blue;
+        }
+        td{
+            background-color: rgb(150, 151, 240);
+        }
+    </style>
+</head>
+<body>
+    <h1>FORMULIR</h1>
+    <form action="#" method="post">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="hobi">Hobi</label>
+        <input type="checkbox" name="hobi" id="hobi" value="Membaca">Membaca
+        <input type="checkbox" name="hobi" id="hobi" value="Memancing">Memancing
+        <input type="checkbox" name="hobi" id="hobi" value="Menulis">Menulis
+        <br>
+        <label for="jk">Jenis Kelamin</label>
+        <input type="radio" name="jk" id="jk" value="Laki - Laki">Laki - Laki
+        <input type="radio" name="jk" id="jk" value="Perempuan">Perempuan
+        <br>
+        <label for="prodi">Jurusan</label>
+        <select name="prodi" id="prodi">
+            <option value="Teknik Informatika">Teknik Informatika</option>
+            <option value="Sistem Informasi">Sistem Informasi</option>
+        </select>
+        <br>
+        <label for="alamat">Alamat</label>
+        <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Reset">
+        <br>
+        <button>Kirim Data</button>
+    </form>
+</body>
+</html>

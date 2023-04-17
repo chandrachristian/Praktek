@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> -->
+    <title>Pemrograman Berbasis Web</title>
+    <style>
+        /* img{
+            height: 1080px;
+            width: 1080px;
+        } */
+        body{
+            background-image: url(https://cdn.pixabay.com/photo/2023/03/22/20/16/muffin-7870491_960_720.jpg);
+            background-position: center;
+            /* background-size: cover; */
+            background-repeat: no-repeat;
+        }
+        table {
+            border-collapse: separate;
+            text-align: center;
+            /* width: 400px;
+            height: 400px; */
+        }
+        table, tr, td,th {
+            border: 1px solid white !important; 
+            text-align: center;
+            color: white;
+            /* font-weight: 900; */
+        }
+        .table2 th{
+            background-color: blue;
+            color: white !important;;
+        }
+        .table2 td{
+            background-color: red;
+        }
+        h1 {
+            color: red;
+            font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
+        }
+    </style>
+</head>
+<body>
+    <img src="img/" alt="BPH HIMSIKA" title="BPH HIMSIKA">
+    <h1>TABLE</h1>
+    <table>
+        <tr>
+            <td>Baris ke-1, Kolom ke-1</td>
+            <td>Baris ke-1, Kolom ke-2</td>
+        </tr>
+        <tr>
+            <td>Baris ke-2, Kolom ke-1</td>
+            <td>Baris ke-2, Kolom ke-2</td>
+        </tr>
+        <tr>
+            <td>Baris ke-3, Kolom ke-1</td>
+            <td>Baris ke-3, Kolom ke-2</td>
+        </tr>
+    </table>
+    <h1>TABLE 2</h1>
+    <table class="table2">
+        <tr>
+            <th>NAMA</th>
+            <th>NPM</th>
+            <th>PERIODE</th>
+        </tr>
+        <tr>
+            <td>Chandra Christian</td>
+            <td>2110631250035</td>
+            <td>Sistem Informasi</td>
+        </tr>
+        <tr>
+            <td>Chandra Christian</td>
+            <td>2110631250035</td>
+            <td>Sistem Informasi</td>
+        </tr>
+    </table>
+    <h1>COLSPAN DAN ROWSPAN</h1>
+    <table>
+        <tr>
+            <td colspan="2">NAMA LENGKAP</td>
+            <td rowspan="2">UMUR</td>
+        </tr>
+        <tr>
+            <td>NAMA DEPAN</td>
+            <td>NAMA BELAKANG</td>
+        </tr>
+        <tr>
+            <td>Chandra</td>
+            <td>Christian</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Siregar</td>
+            <td>Chandra</td>
+            <td>18</td>
+        </tr>
+    </table>
+</body> 
+</html>

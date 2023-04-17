@@ -7,8 +7,8 @@ body{
   margin-right: 4cm;
   text-align: justify;
   font-family: 'Poppins', sans-serif;
-
 }
+
 .header {
     font-size: medium;
     font-family: 'Poppins', sans-serif !important;
@@ -19,6 +19,34 @@ body{
   text-decoration: none;
 }
 
+.header h1{
+  font-size: 45px;
+}
+
+/* .daftarisi{
+  margin-left: 4cm;
+} */
+
 small {
   color: grey;
 }
+
+.container {
+  margin-left: 4cm;
+  margin-right: 4cm;
+}
+
+/* .intro{
+  margin-left: 4cm;
+  margin-right: 4cm;
+}
+
+.detail{
+  margin-left: 4cm;
+  margin-right: 4cm;
+}
+
+.various {
+  margin-left: 4cm;
+  margin-right: 4cm;
+} */
