@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kalkulator</title>
+    <style>
+      input[type="text"] {
+        font-size: 1.5rem;
+        padding: 10px;
+        width: 300px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+      button {
+        font-size: 1.5rem;
+        padding: 10px;
+        width: 50px;
+        border: none;
+        border-radius: 5px;
+        margin-right: 10px;
+        cursor: pointer;
+        background-color: #f2f2f2;
+        color: #333;
+      }
+      button:hover {
+        background-color: #ccc;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Kalkulator Sederhana</h1>
+    <input type="text" id="num1" placeholder="Masukkan angka pertama">
+    <input type="text" id="num2" placeholder="Masukkan angka kedua">
+    <br>
+    <button onclick="hitung('+')">+</button>
+    <button onclick="hitung('-')">-</button>
+    <button onclick="hitung('*')">*</button>
+    <button onclick="hitung('/')">/</button>
+    <button onclick="hitung('%')">%</button>
+    <br>
+    <p id="hasil"></p>
+    <script src="main.js"></script>
+  </body>
+</html>

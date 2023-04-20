@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+input[type="number"] {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 10px;
+  font-size: 18px;
+}

@@ -1,0 +1,90 @@
+*{
+    background-color: #202124;
+}
+h1 {  
+    text-align: center;  
+    padding: 23px;  
+    background-color: #EE826C;  
+    color: white;  
+    border-radius: 10px;
+    font-family: Cambria;
+}
+
+.formstyle {  
+    width: 280px;  
+    height: 530px;  
+    margin: auto;  
+    border: 3px solid #5f6368;  
+    border-radius: 5px;  
+    padding: 20px;  
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+}
+
+input {  
+    width: 20px;  
+    background-color: #938f96;  
+    color: white;  
+    border: 2px solid #938f96;  
+    border-radius: 5px;  
+    padding: 26px;  
+    margin: 5px;  
+    font-size: 15px;
+    cursor: pointer;
+    justify-content: center;
+}  
+
+input:hover{
+    background-color: #cac5cd;
+    border: 2px solid #cac5cd;  
+}
+
+#calc {  
+    width: 228px;  
+    border: 1px solid #3c4043;  
+    border-radius: 10px;  
+    padding: 20px;  
+    margin: auto;
+    background-color: transparent;
+} 
+
+.samadengan{
+    border: 3px solid gray;  
+    background-color: #605d66;  
+    border:2px solid #605d66;
+
+}
+
+.samadengan:hover{
+    background-color: #79747e;
+    border: #79747e;
+    border:2px solid #605d66;
+    align-content: center;
+}
+
+.angka {
+    background-color: #605d66;
+    border:2px solid #605d66;
+}
+
+.angka:hover{
+    background-color: #79747e;
+    border: #79747e;
+    border:2px solid #605d66;
+}
+
+#sama {
+        width: 265px;  
+        border-radius: 5px;  
+        padding: 20px;  
+        color: black;
+        background-color: #8ab4f8;
+        font-weight: bolder;
+        border: 1px solid #8ab4f8;
+}
+
+#sama:hover{
+    background-color: skyblue;
+    border: 1px solid #8ab4f8;
+}

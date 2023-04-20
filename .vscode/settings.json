@@ -2,11 +2,10 @@
     "files.associations": {
         // extension name : html
         "*.ejs": "html",
-        "*.js": "html",
-    
 
     "editor.wordWrap": "on",
     "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "vscode-icons",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
 }

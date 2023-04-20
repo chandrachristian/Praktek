@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Tugas 3 No 2 || Chandra Christian || 2110631250035 </h1>  
+        <div class= "formstyle">  
+            <form name = "bubarsi">  
+                <input id = "calc" type ="text" name = "answer" placeholder="0"> <br> <br>
+                <input class="angka" type = "button" value = "1" onclick = "bubarsi.answer.value += '1' ">
+                <input class="angka" type = "button" value = "2" onclick = "bubarsi.answer.value += '2' ">
+                <input class="angka" type = "button" value = "3" onclick = "bubarsi.answer.value += '3' ">
+                <input class="operator" type = "button" value = "+" onclick = "bubarsi.answer.value += '+' ">
+                <br> <br>
+                <input class="angka" type = "button" value = "4" onclick = "bubarsi.answer.value += '4' ">
+                <input class="angka" type = "button" value = "5" onclick = "bubarsi.answer.value += '5' ">
+                <input class="angka" type = "button" value = "6" onclick = "bubarsi.answer.value += '6' ">
+                <input class="operator" type = "button" value = "-" onclick = "bubarsi.answer.value += '-' ">
+                <br> <br>
+
+                <input class="angka" type = "button" value = "7" onclick = "bubarsi.answer.value += '7' ">
+                <input class="angka" type = "button" value = "8" onclick = "bubarsi.answer.value += '8' ">
+                <input class="angka" type = "button" value = "9" onclick = "bubarsi.answer.value += '9' ">
+                <input class="operator" type = "button" value = "*" onclick = "bubarsi.answer.value += '*' ">
+                <br> <br>
+
+
+                <input type = "button" value = "/" onclick = "bubarsi.answer.value += '/' ">
+                <input class="angka" type = "button" value = "0" onclick = "bubarsi.answer.value += '0' ">
+                <input type = "button" value = "%" onclick = "bubarsi.answer.value += '%' ">
+                <input class="samadengan" type = "button" value = "AC" onclick = "bubarsi.answer.value = ' ' ">
+                <br> 
+                <input id="sama" type = "button" value = "=" onclick = "bubarsi.answer.value = eval(bubarsi.answer.value)">
+                <br>   
+                    
+            </form>  
+        </div>  
+</body>
+        <script src="/tugas3/no2/main.js"></script>
+</html>
