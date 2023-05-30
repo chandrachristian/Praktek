@@ -29,6 +29,7 @@
                 <th>Nama</th>
                 <th>Prodi</th>
                 <th>Alamat</th>
+                <th>Action</th>
             </tr>
             <?php
             while ($row = mysqli_fetch_row($result)) {
@@ -43,6 +44,10 @@
                     <td><?php echo $nama; ?></td>
                     <td><?php echo $prodi; ?></td>
                     <td><?php echo $alamat; ?></td>
+                    <td>
+                        <a class="edit" href="edit.php?npm=<?php echo $npm; ?>">Edit</a>
+                        <a class="delete" href="delete.php?npm=<?php echo $npm; ?>">Delete</a>
+                    </td>
                 </tr>
             <?php
             }
