@@ -50,6 +50,24 @@
     }
     ?>
 
+    <?php
+    if (isset($_POST['simpan'])) {
+        $npm = $_POST['npm'];
+        $nama = $_POST['nama'];
+        $prodi = $_POST['prodi'];
+        $alamat = $_POST['alamat'];
+
+        $update = mysqli_query($conn, "UPDATE mhs set npm = '$npm',nama = '$nama', prodi = '$prodi',alamat = '$alamat' WHERE npm = '$npm'");
+
+        if ($update) {
+            header("location:index.php");
+        } else {
+            echo "Gagal";
+            header("location:edit.php");
+        }
+    }
+    ?>
+
 
 </body>
 
